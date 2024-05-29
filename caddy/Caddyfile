@@ -1,0 +1,7 @@
+www.keyboard.jakef.dev {
+    reverse_proxy localhost:8000
+}
+
+keyboard.jakef.dev {
+    redir https://www.keyboard.jakef.dev{uri}
+}
