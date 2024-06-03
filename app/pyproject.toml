@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = "Python WPM Leaderboard App"
+authors = ["jake-fawcett <jakefawcett2298@hotmail.co.uk>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^3.0.3"
+pandas = "^2.2.2"
+azure-identity = "^1.16.0"
+azure-data-tables = "^12.5.0"
+azure-mgmt-storage = "^21.1.0"
+gunicorn = "^22.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
